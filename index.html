@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #btnNo {
+      position: absolute;
+      transition: 0.2s ease-in-out;
+      background-color: red;
+      color: white;
+    }
+    .content {
+      height: 80vh;
+      width: 100%;
+      display: grid;
+      place-content: center;
+    }
+    button {
+      padding: 15px 25px;
+      margin-left: 30px;
+      margin-top: 15px;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      background-color: rgb(93, 210, 245);
+      font-size: 14px;
+      font-family: "Times New Roman", Times, serif;
+      cursor: pointer;
+    }
+    .image {
+      width: 250px;
+      height: 250px;
+    }
+    #pic {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+  <body>
+    <div class="content">
+      <h1 id="txtChange">Do you love me ? 🥹</h1>
+      <div class="image">
+        <img
+          id="pic"
+          src="https://media.tenor.com/XShX1uoalz4AAAAM/i-miss-you.gif"
+        />
+      </div>
+      <div>
+        <button id="btnYes">Yes</button>
+        <button id="btnNo">NO</button>
+      </div>
+    </div>
+  </body>
+  <script src="js/3.Yesno.js"></script>
+</html>
