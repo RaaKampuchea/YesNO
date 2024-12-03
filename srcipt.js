@@ -26,7 +26,7 @@ btnNo.onclick = () => {
 };
 document.body.addEventListener("click", (e) => {
   if (e.target.id === "btnYes") {
-    window.location.href="https://www.youtube.com"
+    window.location.href="" 
   }
 });
 btnYes.onclick = () => {
