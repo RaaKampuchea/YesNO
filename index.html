@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  <style>
+    #btnNo {
+      transition: 0.2s ease-in-out;
+      background-color: red;
+      color: white;
+      left: 47%;
+    }
+    #btnYes {
+      left: 37%;
+    }
+    .content {
+      height: 80vh;
+      width: 100%;
+      display: grid;
+      place-content: center;
+    }
+    button {
+      position: absolute;
+      padding: 10px 20px;
+      background-color: aqua;
+      border: none;
+      border-radius: 30px;
+      font-size: 14px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      margin-left: 44px;
+      margin-top: 10px;
+    }
+    .image {
+      width: 250px;
+      height: 250px;
+    }
+    #pic {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }  
+    @media (max-width: 576px) {
+      #btnYes {
+        left: 30%;
+        margin-left: 0px;
+      }
+      #btnNo {
+        left: 40%;
+      }
+    }
+  </style>
+  </head>
+  <body>
+    <div class="content">
+      <h1 id="txtChange">Do you Love Me ?💕😘</h1>
+      <div class="image">
+        <img
+          id="pic"
+          src="https://media.tenor.com/XShX1uoalz4AAAAM/i-miss-you.gif"
+        />
+      </div>
+      <div>
+        <button id="btnYes">Yes</button>
+        <button id="btnNo">NO</button>
+      </div>
+    </div>
+  </body>
+  <script src="../js/4.ClickcreateYes.js"></script>
+</html>
